@@ -1,0 +1,38 @@
+/*FAQ*/
+
+
+#photoContainer{
+	float: left;
+	width: 30%;
+}
+
+#contentContainer h2{
+	font-size: 32px;
+	background-color: #ff6600;
+	width: 20%;
+}
+
+#faqcontent{
+	float: right;
+	width: 70%;
+	color: #ba0000;
+	background-color: gray;
+}
+
+#faqcontent h4, #faqcontent p{
+	margin: 10px;
+}
+
+#faqcontent h4{
+	border-top: solid 5px #793fc4;
+	font-size: 2em;
+
+}
+
+#faqcontent p{
+	border-top: double 12px white;
+	font-size: 28px;
+	padding: 10px;
+}
+
+

@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('images/woodbg.png') top left repeat;
+	color: white;
+	font-family: Century Gothic, Arial, Sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-decoration: bold;
+	margin: 5px 0 10px;
+}
+
+p {
+	margin-left: 20px;
+}
+
+.navbox, .box {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5; 
+}
+
+.navbox {
+	background: white;
+	border-radius: 10px;
+	width: 400px;
+	height: auto;
+	padding: 18px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+}
+
+.navbox p {
+	color: #555;
+	text-align: center;
+	font-size: 12px;
+}
+
+.navbox a:link {
+	color: #598adb;
+	text-decoration: none;
+}
+
+.navbox a:visited {
+	color: #598adb;
+}
+
+.navbox a:hover {
+	color: #62799f;
+	text-decoration: bold;
+	font-size: 1em;
+}
+
+.navbox a:active {
+	color: #000;
+}
+
+.box {
+	background: black;
+	width: 80%;
+	margin: 20px auto;
+    padding: 20px;
+}
+
+.box p {
+	text-align: justify;
+}
+
+#container {
+	margin: 23px auto;
+	width: 850px;
+	padding: 50px;
+}
+
+#header, #footer {
+	width: 800px;
+	height: auto;
+}
+
+#footer {
+	margin-left: 11%;
+	margin-right: auto;
+}
+
+#header h1 {
+	font-size: 30px;
+	text-align: right;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#header img, #footer img {
+	height: auto;
+	float: left;
+}
+
+#header img {
+	width: 330px;
+	margin: 0 0 0 -30px;
+}
+
+#footer img {
+	width: 250px;
+	margin: 0 0 0 30px;
+}
+
+#nav-header {
+	float: right;
+}
+
+#nav-footer {
+	margin-top: 80px;
+	float: left;
+}
+
+#left-side, #right-side {
+	padding: 20px;
+	float: left;
+}
+
+#left-side {
+	margin: 0 0 0 25px;
+	padding: auto 0 auto 0;
+}
+
+#left-side img {
+	width: 250px;
+	height: auto;
+	margin: 10px;
+	padding: auto 20px auto 20px;
+}

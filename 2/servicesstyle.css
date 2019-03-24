@@ -1,0 +1,146 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: url(images/grassback.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: "Century Gothic";
+
+}
+
+.content-block
+{
+	margin: 0;
+	padding: 5px 0 10px 0;
+	background: #ef4135;
+	height: 50px;
+	width: 100%;
+	border: solid 5px black;
+}
+
+#nav
+{
+	width: 1000px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 45px;
+	float: block-inline;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#nav ul
+{
+	list-style-type: none;
+}
+
+#nav li
+{
+	display: inline;
+}
+
+#nav img
+{
+	width: 45px;
+	height: 45px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	-moz-border-radius-topleft: 10px;
+  	-moz-border-radius-topright: 10px;
+  	-moz-border-radius-bottomright: 0px;
+ 	 -moz-border-radius-bottomleft: 0px;
+  	-webkit-border-radius: 10px 10px 0px 0px;
+  	border-radius: 10px 5px;
+	background-color: white;
+	color: #ef4135;
+}
+
+/*CIRCULAR IMAGES*/
+.circularimage1
+{
+	float: left;
+	margin: 30px 0px 0px 200px;
+	width: 300px;
+ 	height: 300px;
+ 	background-image: url("images/smalldog.jpg");
+ 	background-size: cover;
+ 	display: block;
+ 	border-radius: 150px;
+ 	-webkit-border-radius: 150px;
+ 	-moz-border-radius: 150px;
+ 	border: solid 3px black;
+}
+
+.circularimage2
+{
+	float: left;
+	margin: 30px 0px 0px 200px;
+	width: 300px;
+ 	height: 300px;
+ 	background-image: url("images/specialty.jpg");
+ 	background-size: cover;
+ 	display: block;
+ 	border-radius: 150px;
+ 	-webkit-border-radius: 150px;
+ 	-moz-border-radius: 150px;
+ 	border: solid 3px black;
+}
+
+.circularimage3
+{
+	float: left;
+	margin: 30px 0px 0px 200px;
+	width: 300px;
+ 	height: 300px;
+ 	background-image: url("images/penguin.png");
+ 	background-size: cover;
+ 	display: block;
+ 	border-radius: 150px;
+ 	-webkit-border-radius: 150px;
+ 	-moz-border-radius: 150px;
+ 	border: solid 3px black;
+}
+
+.details
+{
+	border: solid 3px black;
+	margin: 30px 211px 20px 550px;
+	padding: 30px;
+}
+/*---------------------------------------------------------------*/
+
+#footer
+{	
+	box-shadow: 10px 10px 5px #888888;
+	margin: 30px;
+	padding: 10px 25px;
+	width: 950px; 
+	color: black;
+}
+
+#footer img 
+{
+	width: 30px;
+	height: 30px;
+}
+
+#footer p
+{
+	font-size: 20px;
+}
+

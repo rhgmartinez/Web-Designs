@@ -1,0 +1,54 @@
+/*service*/
+
+/*general*/
+
+#maincontent{
+	width:65%;
+	float: left;
+	border-right: solid 10px black;
+	text-align: justify;
+}
+
+#contentContainer ul{
+	list-style: none;
+	list-style-position: inside;
+	padding-left: 30px; 
+}
+
+#contentContainer h2{
+	font-size: 32px;
+	background-color: #ff6600;
+	width:30%;
+
+}
+
+.sectionheader{
+	font-size: 28px;
+	background-color: white;
+	border-top: double 6px black;
+	border-bottom: double 6px black;
+	margin: 20px 0; 
+	width: 100%;
+	text-align: center;
+}
+
+.content{
+	font-size: 24px;
+	background-color: white;
+	border-bottom: double 6px black;
+	padding: 20px;
+}
+
+.images{
+	margin: 20px 25%;
+	width: 300px;
+	height: 300px;
+	
+}
+
+#sidebar{
+	float: left;
+	width: 30%;
+	margin-left: 20px ;
+}
+

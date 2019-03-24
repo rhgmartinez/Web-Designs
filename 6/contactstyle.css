@@ -1,0 +1,95 @@
+/*Contact styles*/
+
+/*general*/
+#emailForm,#address,#contactInfo{
+	margin: 10px 0;
+}
+#emailForm{
+	width: 50%;
+	float:right;
+	position: relative;
+	top: 150px;
+	background-color: #793fc4;
+}
+#address{
+	float: left;
+	width: 50%;
+	background-color: white;
+}
+#contactInfo{
+	width: 50%;
+	float: left;
+	clear:both;
+	background-color: #009900;
+}
+
+#mainContainer h2{
+	font-size: 32px;
+	background-color: #ff6600;
+	width: 20%;
+}
+
+#contentContainer{
+	font-size: 28px;
+}
+
+/*specific*/
+
+
+/*address*/
+
+#address h4, #address address, #address iframe{
+	margin: 20px;
+}
+
+#address address ul{
+	list-style-position: inside;
+	list-style: none;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#address iframe{
+	border: solid 3px black;
+}
+
+/*contact*/
+#contactInfo h4, #contactInfo address{
+	margin: 30px 30px 10px 30px;
+}
+
+#contactInfo address ul{
+	list-style-position: inside;
+	list-style: none;
+	padding: 0px 30px 30px 30px;
+	margin-bottom: 15px;
+}
+
+/*email*/
+
+#emailForm form{
+	margin: 20px;
+	padding: 5px;
+}
+
+#emailForm form fieldset{
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#emailForm label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#emailForm #namebox, #emailForm #emailbox, #emailForm input[type="submit"]{
+	margin: 10px auto;
+} 
+
+#emailForm #namebox, #emailForm #emailbox, #emailForm #textbox{
+	width: 100%;
+}
+
+#emailForm #textbox{
+	height: 30px;
+}

@@ -1,0 +1,290 @@
+::selection {
+  background: #EB6821;
+}
+
+body{
+	font-family: Segoe UI, sans-serif;
+	font-weight: lighter;
+	margin: 0;
+	padding: 0;
+	animation: moveDown 0.6s ease-in-out 0.2s backwards;
+	color: #fff;
+}
+
+h2, h3{
+	font-family: Segoe UI, sans-serif;
+	font-weight: lighter;
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding-left: 50px;
+	padding-top: 100px;
+}
+
+h2{
+	float: left;
+}
+
+p{
+	font-family: Segoe UI, sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+input, textarea{
+	font-family: Segoe UI, sans-serif;
+	background-color: black;
+	color: white;
+	width: 300px;
+	font-size: 16px;
+	opacity: .5;
+}
+
+footer{
+	background-color: #000;
+	color: #FE5301;
+	padding-top: 5px;
+	height: 30px;
+	border-top: solid 1px #FE5301;
+}
+
+#navbar{
+	background-color: white;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	opacity: 0.70;
+	z-index: 20;
+}
+
+#sns{
+	top: 0;
+	height: 50px;
+	width: 200px;
+	position: fixed;
+	right: 0;
+}
+
+#sns ul, #grid ul{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+#sns li{
+	display: inline;
+}
+
+/*#sns a:link{
+	width: 100%;
+	height: 50px;
+	padding: 0;
+}*/
+
+#sns img{
+	height: 50px;
+	width: 50px;
+	-webkit-transition: 3s ease-in;
+	transition: 3s;
+}
+
+#menu{
+	position: fixed;
+}
+
+#menu ul{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#menu li{
+	font-family: Segoe UI, sans-serif;
+	color: black;
+	display: inline;
+	float: left;
+	-webkit-transition: 3s ease-in;
+	transition: 3s;
+}
+
+#menu a:hover, #sns a:hover{
+	background-color: #FE5301;
+	color: white;
+	width: 150px;
+	height: 50px;
+	display: inline;
+	-webkit-transition: .3s ease-in;
+	transition: .3s;
+}
+
+#menu a:link{
+	display: block;
+	width: 110px;
+	color: black;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+}
+
+#menu a{
+	color: black;
+}
+
+#menu p{
+	font-family: Segoe UI Light, sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+#tagline{
+	position: absolute;
+    margin: auto;
+    top: 65%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#logo{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page{
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+#home{
+	background-image: url(img/sparksbg.gif);
+	transition: all 0.6s ease-in-out;	
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+}
+
+#about{
+	background-image: url(img/aboutbg.png);
+}
+
+#abouttext{
+	float: right;
+	padding-top: 25vh;
+	padding-right: 25vw;
+	width: 300px;
+}
+
+#aboutimg{
+	float: left;
+	padding-top: 25vh;
+	padding-left: 15vw;
+	width: 300px;
+}
+
+
+#contact{
+	background-image: url(img/contactbg.png);
+}
+
+#contactdetails{
+	float: left;
+	padding-top: 30vh;
+	padding-left: 10vw;
+	width: 300px;
+}
+
+#contactform{
+	color: white;
+	font-size: 20px;
+	float: right;
+	padding-top: 8vh;
+	padding-right: 25vw;
+	width: 300px;
+}
+
+#product{
+	background-image: url(img/productsbg.png);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	margin-top: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+#productimages{
+	padding-top: 100px;
+	padding-left: 50px;
+	float: left;
+	-webkit-column-count: 4;
+}
+
+.prod img{
+	width: 250px;
+	height: 250px;
+	display: inline;
+	border: solid 1px #fff;
+	border-radius: 500px;
+	position: static;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 55px inset;
+}
+
+.prod img:hover{
+	border: solid 1px #FE5301;
+}
+
+#image{
+	background-image: inherit;
+	border-radius: 10px;
+	border: solid 3px #fff;
+	background-size: cover;
+	float: right;
+	width: 50vw;
+	height: 62vh;
+	margin-top: 130px;
+	margin-right: 180px;
+}
+
+#faqs{
+	background-image: url(img/faqbg.png);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	margin-top: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+#submitbtn{
+	background-color: black;
+	width: 130px;
+	height: 40px;
+	border-radius: 30px;
+}
+
+#answers{
+	padding-left: 50px;
+	padding-top: 20vh;
+	width: 90vw;
+}
+
+#answers h2, #answers p{
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
